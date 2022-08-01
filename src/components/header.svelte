@@ -4,8 +4,8 @@
     let li ='cursor-pointer hover:underline'
 </script>
 
-<section>
-    <div class="h-16 w-full bg-amber-400 flex items-center">
+<section class="sticky top-0 z-50">
+    <div class="h-12 w-full bg-amber-400 flex items-center ">
         <nav class="flex w-4/5 mx-auto justify-center ">
             <div class="text-yellow-50 text-md font-bold flex justify-center pr-8">NIS</div>
             <div class="justify-center flex">

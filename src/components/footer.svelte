@@ -1,0 +1,1 @@
+<div class="h-10 bg-teal-500 w-full mt-64"></div>
