@@ -13,7 +13,7 @@
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/A5.JPG" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex">
+                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
                         <div class="w-full xl:w-1/2"> 
                             <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
                                 <img class = "image h-44 opacity-80  " src="NIS_5.png" alt="temp logo">
@@ -31,7 +31,7 @@
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/m20.JPG" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex">
+                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
                         <div class="w-full xl:w-1/2"> 
                             <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
                                 <img class = "image h-44 opacity-80  " src="NIS_5.png" alt="temp logo">
@@ -48,7 +48,7 @@
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/m73.JPG" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex">
+                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
                         <div class="w-full xl:w-1/2"> 
                             <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
                                 <img class = "image h-44 opacity-80  " src="NIS_5.png" alt="temp logo">
@@ -66,7 +66,7 @@
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/m90.JPG" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex">
+                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
                         <div class="w-full xl:w-1/2"> 
                             <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
                                 <img class = "image h-44 opacity-80  " src="NIS_5.png" alt="temp logo">
@@ -84,7 +84,7 @@
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/m86.JPG" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex">
+                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
                         <div class="w-full xl:w-1/2"> 
                             <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
                                 <img class = "image h-44 opacity-80  " src="NIS_5.png" alt="temp logo">
@@ -112,7 +112,6 @@
         <div class="h-1 w-1/3 bg-red-500"></div>
         <div class="h-1 w-1/3 bg-green-500"></div>
         <div class="h-1 w-1/3 bg-yellow-300"></div>
-
     </div>
 </section>
 
@@ -155,17 +154,17 @@
         </div>
         <div class="bg-sky-100 relative w-full h-48 border-b-4 border-yellow-300">
             <img src="/jpg/m70.JPG" alt="caro_1" class="object-cover h-full w-full ">
-            <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex cursor-pointer hover:bg-opacity-40 transition duration-150"></div>
+            <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-30 transition duration-150"></div>
 
         </div>
         <div class="bg-sky-100 relative w-full h-48 border-b-4 border-red-500">
             <img src="/jpg/m31.JPG" alt="caro_1" class="object-cover h-full w-full  ">
-            <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex cursor-pointer hover:bg-opacity-40 transition duration-150"></div>
+            <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-30 transition duration-150"></div>
 
         </div>
         <div class="bg-sky-100 relative w-full h-48 mero border-b-4 border-indigo-900 ">
             <img src="/jpg/m55.JPG" alt="caro_1" class="object-cover h-full w-full mero ">
-            <div class="absolute top-0 bg-blue-900 bg-opacity-30 h-full w-full flex cursor-pointer hover:bg-opacity-40 transition duration-150"></div>
+            <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-30 transition duration-150"></div>
 
         </div>
 
