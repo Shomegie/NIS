@@ -8,7 +8,8 @@
 
 
 <section id="carousel">
-    <div class="h-[560px] bg-indigo-900 w-full relative">
+    <div class="texture">
+    <div class="h-[560px] bg-indigo-900 bg-opacity-0 w-full relative">
         <Splide class="w-full"  options={ { rewind: true } } aria-label="My Favorite Images">
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
@@ -113,6 +114,7 @@
         <div class="h-1 w-1/3 bg-green-500"></div>
         <div class="h-1 w-1/3 bg-yellow-300"></div>
     </div>
+</div>
 </section>
 
 <section id="Academics">
@@ -252,7 +254,15 @@
     class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
+<section>
+
+</section>
+
 
 <style>
-
+    .texture{
+        background-color: #1a0369;
+        background-color: #1a0369;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%233b58d5' fill-opacity='0.14'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
 </style>

@@ -7,7 +7,7 @@ import { goto } from '$app/navigation';
 
 <div class="h-1 w-full bg-gray-500"></div>
 <div class="h-1 w-full bg-blue-900"></div>
-<div class="bg-black w-full pt-8  relative">
+<div class="texture w-full pt-8  relative">
     <div class="w-5/6 mx-auto hidden lg:flex flex-col px-4">
         <div class="flex w-full">
             <div class="space-y-2 w-2/3">
@@ -46,57 +46,10 @@ import { goto } from '$app/navigation';
 
 </div>
 
-<!-- <div class="h-96 px-40 text-gray-500 bg-blue-900 flex"> -->
+<style>
+    .texture{
+        background-color: #010101;
+        background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23303032' fill-opacity='0.46'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+</style>
 
-
-
-
-
-
-
-<!-- <script>
-    let tx1 = `text-gray-400`
-    let tx2 = `text-gray-500 text-xs underline cursor-pointer hover:text-gray-200 transition duration-300`
-</script>
-
-<div>
-    <div class="h-1 w-full bg-gray-800"></div>
-    <div class="bg-black w-full h-32"></div>
-    <div class="h-96 px-40 text-gray-500 bg-black flex">
-        <div class="contacts w-4/12 h-full pt-4">
-            <div class="content h-5/6">
-                <br>
-                <p class="text-xs {tx1}">Address: <br>102 Elioparanwo, Off Ada-George Road, Port Harcourt.</p>
-                <br>
-                <p class="text-xs {tx1}">Phone:<br>0803 555 5555</p>
-                <br>
-                <p class="text-xs {tx1}">Email:<br> mail@gmail.com</p>
-                <br>
-                <p class="text-xs {tx1}">Facebook:<br>www.facebook/user.com</p>
-            </div>
-            <div class="flex flex-col h-1/6 pb-8 justify-end">
-                <p class="text-xs ">@2021 Nithalos Montessori School</p>
-            </div>
-        </div>
-        <div class="resources w-4/12 h-full pt-6">
-            <div class=" px-20 grid grid-cols-2 gap-y-16 align-center pt-6">
-                <p class="{tx2}">Home</p>
-                <p class="{tx2}">News</p>
-                <p class="{tx2}">Gallery</p>
-                <p class="{tx2}">About</p>
-                <p class="{tx2}">Admission</p>
-                <p class="{tx2}">Academics</p>
-            </div>
-        </div>
-        <div class="logo w-4/12 h-full">
-            <div class="image h-3/4 flex justify-end items-center" >
-                <img class = "image h-44 " src="../static/test/7x.png" alt="temp logo">   
-            </div>
-    
-            <div class=" logo-container pb-8 h-1/4 flex float-right flex-col justify-end">
-                <p class="text-xs ">Developed by Shomegie</p>
-            </div>
-    
-        </div>
-    </div>
-</div> -->

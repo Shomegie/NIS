@@ -3,26 +3,28 @@
     let li ='text-blue-100 text-sm cursor-pointer underline hover:text-white transition duration-100'
 </script>
 
-
-<section class="desktop hidden sm:block bg-indigo-900 ">
-    <div class="grid grid-cols-1 ">
-        <div class="hidden sm:block h-6 w-full bg-blue-500 text-xs text-red-100 px-8 py-1 cursor-pointer">
-            <p class="underline">Get the latest update and NIS's response to COVID-19</p>
+<section class="texture">
+    <div class="desktop hidden sm:block bg-indigo-900 bg-opacity-0 ">
+        <div class="grid grid-cols-1 ">
+            <div class="hidden sm:block h-6 w-full bg-blue-500 text-xs text-red-100 px-8 py-1 cursor-pointer">
+                <p class="underline">Get the latest update and NIS's response to COVID-19</p>
+            </div>
+            <div class="h-12 flex justify-center items-center px-8 relative">
+                <div class="absolute left-0 text-xs font-bold tracking-tighter sm:pl-7 xl:text-base text-indigo-50 ">Nithalos International School</div>
+                
+                <ul class="hidden sm:flex text-gray-500 space-x-6">
+                    <li class={li} on:click={()=>goto("/home")}>Home</li>
+                    <li class={li}>About Us</li>
+                    <li class={li}>Gallery</li>
+                    <li class={li}>Contacts</li>
+                    <li class={li}>Admission</li>
+                </ul>
+            </div>
         </div>
-        <div class="h-12 flex justify-center items-center px-8 relative">
-            <div class="absolute left-0 text-xs font-bold tracking-tighter sm:pl-7 xl:text-base text-indigo-50 ">Nithalos International School</div>
-            
-            <ul class="hidden sm:flex text-gray-500 space-x-6">
-                <li class={li} on:click={()=>goto("/home")}>Home</li>
-                <li class={li}>About Us</li>
-                <li class={li}>Gallery</li>
-                <li class={li}>Contacts</li>
-                <li class={li}>Admission</li>
-            </ul>
-        </div>
+        <div class=""></div>
     </div>
-    <div class=""></div>
 </section>
+
 
 <section class="mobile bg-blue-900 flex sm:hidden justify-end relative">
     <div class="z-50 absolute right-0 top-0">
@@ -38,3 +40,11 @@
     </div>
 
 </section>
+
+<style>
+    .texture{
+        background-color: #1a0369;
+        background-color: #1a0369;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%233b58d5' fill-opacity='0.14'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+</style>
