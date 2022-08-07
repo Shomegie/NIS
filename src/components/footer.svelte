@@ -17,7 +17,7 @@ import { goto } from '$app/navigation';
                 <p class="text-xs {tx1}">Facebook:<br>www.facebook/user.com</p>
             </div>
             <div class="w-1/3 flex justify-end pr-8">
-                <img class = "image h-44 opacity-90" src="NIS_5.png" alt="temp logo">   
+                <img class = "image h-44 opacity-90" src="/png/NIS_6.png" alt="temp logo">   
             </div>
         </div>
 

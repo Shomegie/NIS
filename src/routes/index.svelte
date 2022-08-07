@@ -1,1 +1,5 @@
-<a class="underline text-blue-500" href="/home">Home</a>
+<script>
+    import Home from './home.svelte'
+</script>
+
+<Home />

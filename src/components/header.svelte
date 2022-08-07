@@ -1,6 +1,6 @@
 <script>
     import { goto } from '$app/navigation';
-    let li ='text-blue-100 text-sm cursor-pointer underline hover:text-white transition duration-100'
+    let li ='text-blue-50 text-sm cursor-pointer font-bold  hover:text-orange-400 transition duration-150'
 </script>
 
 <section class="texture">
